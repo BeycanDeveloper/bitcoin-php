@@ -1,0 +1,28 @@
+{
+    "name": "beycan/bitcoin",
+    "version": "0.1.0",
+    "description": "Bitcoin PHP Provider",
+    "type": "library",
+    "license": "LGPL-3.0",
+    "authors": [
+        {
+            "name": "Halil Beycan",
+            "email": "halilbeycan0@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/BeycanDeveloper/bitcoin-php/issues"
+    },
+    "homepage": "https://github.com/BeycanDeveloper/bitcoin-php",
+    "require": {
+        "php": ">=7.4",
+        "phpseclib/phpseclib": "~2.0.11",
+        "ext-mbstring": "*",
+        "beycan/utils": "^0.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Beycan\\Bitcoin\\" : "src"
+        }
+    }
+}
